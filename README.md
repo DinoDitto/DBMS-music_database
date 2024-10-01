@@ -8,7 +8,7 @@
 <img src="images/Relational schema.jpg" width="75%">
 
 ## 建置資料表
-* 資料表 ‵user‵
+**資料表 ‵user‵**
 ```
 CREATE TABLE `user` (
 `id` int(11) NOT NULL,
@@ -22,7 +22,7 @@ CREATE TABLE `user` (
 ) ENGINE = InnoDB DEFAULT CHARSET=
 utf8mb4_unicode_ci;
 ```
-* 資料表 ‵song‵
+**資料表 ‵song‵**
 ```
 CREATE TABLE ` song ` (
 `id` int(11) NOT NULL,
@@ -35,7 +35,7 @@ CREATE TABLE ` song ` (
 ) ENGINE = InnoDB DEFAULT CHARSET=
 utf8mb4_unicode_ci;
 ```
-* 資料表 ‵playlist‵
+**資料表 ‵playlist‵**
 ```
 CREATE TABLE ` playlist ` (
 `id` int(11) NOT NULL,
@@ -44,7 +44,7 @@ CREATE TABLE ` playlist ` (
 ) ENGINE = InnoDB DEFAULT CHARSET= 
 utf8mb4_unicode_ci;
 ```
-* 資料表 ‵song_in_playlist‵
+**資料表 ‵song_in_playlist‵**
 ```
 CREATE TABLE ` song_in_playlist ` (
 `id` int(11) NOT NULL,
@@ -57,7 +57,8 @@ utf8mb4_unicode_ci;
 ## 程式檔案說明
 此資料庫之前端網頁功能包含:
 <br>
-* 使用者介面
+<br>
+**使用者介面**
 1. 註冊
 &emsp;<br>register.html / register.php
 2. 登入
@@ -83,7 +84,7 @@ utf8mb4_unicode_ci;
 9. 修改密碼
 &emsp;<br>alter_password.php
 
-* 管理者介面
+**管理者介面**
 1. 管理者登入
 &emsp;<br>manage_login.php / manage_login_back.php
 2. 管理者首頁: 可列出資料庫所有歌曲
