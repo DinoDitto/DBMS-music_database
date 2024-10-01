@@ -1,0 +1,28 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>查詢平台</title>
+</head>
+<body>
+<form name="selectForm" method="post" action="select.php" onsubmit="return validateForm()">
+<div>
+<center>
+    <h1>功能：</h1>
+        <h2><input type="radio" name="function" value="songTitle" checked><label>依歌名搜尋歌曲資料</label>
+        <input type="radio" name="function" value="singer"><label>依歌手搜尋歌手歌曲</label>
+        <input type="radio" name="function" value="type"><label>依曲風搜尋同曲風歌曲</label>
+        <input type="radio" name="function" value="album"><label>依專輯列出專輯歌曲</label></h2>
+</center>
+</div>
+<br></br>
+<center>
+<h3>搜尋:
+<input type="text" name="search"><br/><br/></h3>
+<input type="submit" value="查詢" name="submit" style="width:80px;height:40px;font-size:15px">
+<input type="reset" value="重設" name="submit" style="width:80px;height:40px;font-size:15px">
+</form>
+<br/><br/>
+<a href="welcome.php">回首頁</a>
+</center>
+</body>
+</html>
